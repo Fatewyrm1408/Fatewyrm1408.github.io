@@ -147,7 +147,7 @@ button {
     position: absolute;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 623px) {
     header {
         flex-direction: row;
         align-items: center;
