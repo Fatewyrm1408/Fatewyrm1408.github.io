@@ -151,7 +151,7 @@ button {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 90%; /* Cambia el ancho del encabezado al 90% del contenedor */
+        width: 50%; /* Cambia el ancho del encabezado al 90% del contenedor */
         margin: 0 auto; /* Centra horizontalmente el encabezado */
     }
 
