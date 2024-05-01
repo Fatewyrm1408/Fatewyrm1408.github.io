@@ -147,7 +147,7 @@ button {
     position: absolute;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 990px) {
     header {
         flex-direction: row;
         align-items: center;
@@ -191,7 +191,7 @@ button {
 }
 
 
-@media (min-width: 801px) and (max-width: 990px) {
+@media (min-width: 991px) and (max-width: 1024px) {
     #Titulo {
         padding: 110px 200px; /* Ajusta el padding para tablet */
         font-size: 3em;
@@ -213,7 +213,7 @@ button {
     text-align: center;
 }
 /*Movil*/
-@media (max-width:767px){ 
+@media (max-width:990px){ 
     .desktop{
         display: none;
     }
@@ -222,7 +222,7 @@ button {
     }
 }
 /*Tablet*/
-@media (min-width:768px) and (max-width:990px){
+@media (min-width:991px) and (max-width:1024px){
     
     .desktop{
         display: none;
