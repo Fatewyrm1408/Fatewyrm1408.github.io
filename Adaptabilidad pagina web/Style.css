@@ -28,7 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 150%;
     height: 60px;
     background-color: #212121;
     color: white;
@@ -110,10 +110,10 @@ button {
     text-shadow: 8px 8px 8px #000000;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    border-radius: 0px;
     padding: 110px 0; /* Ajusta el padding vertical */
     position: relative;
-    width: 100vw; /* Hace que el fondo ocupe todo el ancho de la ventana */
+    width: 150vw; /* Hace que el fondo ocupe todo el ancho de la ventana */
     left: 50%; /* Centra el título */
     transform: translateX(-50%); /* Centra el título */
 }
