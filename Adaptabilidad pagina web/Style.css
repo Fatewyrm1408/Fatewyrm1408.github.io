@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 100vh;
+    min-height: 0vh;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -28,7 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 150%;
+    width: 1000px;
     height: 60px;
     background-color: #212121;
     color: white;
@@ -113,7 +113,7 @@ button {
     border-radius: 0px;
     padding: 110px 0; /* Ajusta el padding vertical */
     position: relative;
-    width: 150vw; /* Hace que el fondo ocupe todo el ancho de la ventana */
+    width: 1000px; /* Hace que el fondo ocupe todo el ancho de la ventana */
     left: 50%; /* Centra el título */
     transform: translateX(-50%); /* Centra el título */
 }
