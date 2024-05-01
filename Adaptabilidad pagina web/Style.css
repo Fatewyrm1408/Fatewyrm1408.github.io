@@ -36,7 +36,6 @@ header {
     font-family: sans-serif;
     position: relative;
     z-index: 2;
-    margin-top: 0; /* Ajuste para alinear el encabezado arriba */
 }
 
 .logo img {
@@ -152,7 +151,8 @@ button {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 100%;
+        width: 90%; /* Cambia el ancho del encabezado al 90% del contenedor */
+        margin: 0 auto; /* Centra horizontalmente el encabezado */
     }
 
     .perfil {
