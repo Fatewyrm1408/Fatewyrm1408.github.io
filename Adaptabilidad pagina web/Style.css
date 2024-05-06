@@ -625,7 +625,7 @@ footer {
 
 @media (min-width: 1200px) and (max-width: 1920px) 
 {
-      #Titulo {
+       #Titulo {
         font-size: 150%; /* Ajusta el tamaño del título según sea necesario */
         padding: 50px 0; /* Ajusta el espacio alrededor del título */
     }
@@ -639,13 +639,11 @@ footer {
 
     .main-content {
         padding: 50px 0; /* Ajusta el espacio alrededor del contenido principal */
+        width: 100%; /* Hace que el contenedor principal ocupe todo el ancho disponible */
+        max-width: none; /* Quita el límite de ancho máximo */
     }
 
-    /* Ancho total de la página */
-    body, .main-content {
-        max-width: 100%; /* Hace que la página ocupe todo el ancho disponible */
-    }
-
+    /* Agrega aquí otros estilos específicos para esta resolución */
 }
 
 @media (min-width: 1921px) {
