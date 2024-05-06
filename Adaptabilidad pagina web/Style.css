@@ -623,6 +623,21 @@ footer {
     background-color: #d00;
 }
 
+@media (min-width: 1134px) and (max-width: 1919px) 
+{
+    #Titulo {
+        font-size: 100%;
+        padding: 100px 0;
+    }
+    
+    #Dragon {
+        width: 200px;
+        height: 200px;
+        margin-top: -450px;
+        margin-bottom: 30px;
+    }
+}
+
 @media (min-width: 1920px) {
     body {
         padding: 0 100px;
