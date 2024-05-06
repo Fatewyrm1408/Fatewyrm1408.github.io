@@ -625,16 +625,20 @@ footer {
 
 @media (min-width: 1200px) and (max-width: 1920px) 
 {
-    #Titulo {
-        font-size: 100%;
-        padding: 100px 0;
+     #Titulo {
+        font-size: 150%; /* Ajusta el tamaño del título según sea necesario */
+        padding: 50px 0; /* Ajusta el espacio alrededor del título */
     }
-    
+
     #Dragon {
-        width: 200px;
-        height: 200px;
-        margin-top: -450px;
-        margin-bottom: 30px;
+        width: 300px; /* Ajusta el tamaño del elemento "Dragon" */
+        height: 300px; /* Ajusta el tamaño del elemento "Dragon" */
+        margin-top: -350px; /* Ajusta la posición vertical del elemento "Dragon" */
+        margin-bottom: 20px; /* Ajusta el espacio alrededor del elemento "Dragon" */
+    }
+
+    .main-content {
+        padding: 50px 0; /* Ajusta el espacio alrededor del contenido principal */
     }
 }
 
