@@ -623,7 +623,7 @@ footer {
     background-color: #d00;
 }
 @media (min-width: 800px) and (max-width: 1280px){
-    #Dragon {
+    #Dragon img {
     width: 200px;
     height: 200px;
    }
