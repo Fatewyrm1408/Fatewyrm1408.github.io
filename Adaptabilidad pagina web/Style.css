@@ -622,67 +622,6 @@ footer {
 .right .btn button:hover {
     background-color: #d00;
 }
-@media (max-width: 1920px) {
-    body {
-        padding: 0 100px;
-    }
-    
-    header {
-        height: auto;
-        padding: 20px 50px;
-    }
-    
-    .logo img {
-        width: 60px;
-        height: 60px;
-    }
-    
-    nav ul li {
-        margin-right: 20px;
-    }
-    
-    input {
-        width: 250px;
-    }
-    
-    #Titulo {
-        font-size: 300%;
-        padding: 100px 0;
-    }
-    
-    #Dragon {
-        width: 500px;
-        height: 500px;
-        margin-top: -450px;
-        margin-bottom: 30px;
-    }
-    
-    #contenidocarrusel {
-        max-width: 100%;
-        margin-top: 20px; /* Ajusta este valor según tu diseño */
-    }
-    
-    #contenido2 {
-        padding: 70px 0;
-        margin-top: -350px;
-    }
-    
-    #contenido2::after {
-        width: 120%;
-        margin-top: 550px;
-    }
-    
-    .card {
-        width: 24%;
-        height: 350px;
-        margin: 20px 1%;
-    }
-    
-    #comentarios {
-        margin-top: 150px;
-    }
-}
-
 
 @media (min-width: 1921px) {
     body {
